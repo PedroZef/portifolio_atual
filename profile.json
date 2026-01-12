@@ -1,0 +1,105 @@
+{
+  "name": "Pedro Zeferino da Silva",
+  "photo": "https://avatars.githubusercontent.com/u/87716478?v=4",
+  "job": "Desenvolvimento de Sistemas - FAT(Estudante Em Formação)| Técnico de Informática para Internet - IFSP(Formado)",
+  "location": "São José dos Campos - São Paulo",
+  "phone": "(12) 98815-7161",
+  "email": "zefpedro@hotmail.com",
+  "github": "https://github.com/PedroZef",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "assets/img/icons/skills/html.png"
+      },
+      {
+        "name": "CSS3",
+        "logo": "assets/img/icons/skills/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "assets/img/icons/skills/js.png"
+      },
+      {
+        "name": "Git",
+        "logo": "assets/img/icons/skills/git.png"
+      },
+      {
+        "name": "React",
+        "logo": "assets/img/icons/skills/react.svg"
+      },
+      {
+        "name": "Node.js",
+        "logo": "assets/img/icons/skills/nodejs.svg"
+      }
+      
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pontualidade",
+      "Responsabilidade",
+      "Ética",
+      "Trabalho em equipe",
+      "Proatividade"
+    ]
+  },
+  
+  "languages": [
+    "Português (Nativo)",
+    "Inglês (Básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Calculadora de Partidas Ranqueadas",
+      "url": "https://github.com/PedroZef/-Calculadora-Partidas-Ranqueadas",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/PedroZef/js-developer-pokedex_zef",
+      "github": true
+    },
+    {
+      "name": "Desafio DIO 03",
+      "url": "https://github.com/PedroZef/desafioDIO03",
+      "github": true
+    },
+    {
+      "name": "Projeto Web",
+      "url": "https://github.com/PedroZef/Projeto_WEB",
+      "github": true
+    }
+  ],
+  "academicTraining": [
+    {
+      "name": "Desenvolvimento de Sistemas",
+      "period": "2025 - 2026",
+      "description": "FAT - Fundação ao Apoio à Tecnologia (Em Formação)"
+    }
+    ,
+    {
+      "name": "Técnico de Informática para Internet",
+      "period": "2011 - 201",
+      "description": "IFSP - Instituto Federal de São Paulo (Concluído)"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Desenvolvedor Web",
+      "period": "2023 - Atual",
+      "description": "Freelancer"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Desenvolvimento Web",
+      "description": "Curso de desenvolvimento web com foco em HTML, CSS e JavaScript.",
+      "url": "#"
+    },
+    {
+      "name": "React: Desenvolvendo com JavaScript",
+      "description": "Curso introdutório de React.",
+      "url": "#"
+    }
+  ]
+}

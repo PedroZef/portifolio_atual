@@ -1,0 +1,45 @@
+.acordeon .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.acordeon .skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.acordeon .skills .tools ul li img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 .5rem;
+}
+
+.acordeon .skills .personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.acordeon .skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem
+}
+
+@media only screen and (min-width: 768px) {
+    .acordeon .skills {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+}

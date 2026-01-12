@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Pedro Zeferino da Silva</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="./css/experience.css" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/acordeon.css" />
+    <link rel="stylesheet" href="./css/languages.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/courses.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <img
+          src="./assets/img/my-fhoto.jpg"
+          alt="Foto de Perfil"
+          class="photo"
+          id="profile.photo"
+        />
+
+        <h1 class="title">
+          Olá,<br />eu sou
+          <span id="profile.name">Pedro Zeferino da Silva</span>
+        </h1>
+
+        <div class="information">
+          <div class="info-item">
+            <img src="./assets/img/icons/job.svg" alt="Ícone de trabalho" />
+            <p class="job">
+              Dev em Formação Desensenvolvimento de Sistemas | Desenvolvedor Web
+              Full Stack
+            </p>
+          </div>
+          <div class="info-item">
+            <img
+              src="./assets/img/icons/location.svg"
+              alt="Ícone de localização"
+            />
+            <p class="location">São José dos Campos - SP</p>
+          </div>
+          <div class="info-item">
+            <img src="./assets/img/icons/phone.svg" alt="Ícone de telefone" />
+            <p class="phone">(12) 98815-7161</p>
+          </div>
+          <div class="info-item">
+            <img src="./assets/img/icons/email.svg" alt="Ícone de e-mail" />
+            <p class="email">
+              <a href="mailto:zefpedro@hotmail.com">zefpedro@hotmail.com</a>
+            </p>
+          </div>
+          <div class="info-item">
+            <img src="./assets/img/icons/github.svg" alt="Ícone do GitHub" />
+            <p class="github">
+              <a href="https://github.com/PedroZef" target="_blank" rel="noopener noreferrer"
+                >https://github.com/PedroZef/</a
+              >
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <section class="acordeon skills">
+        <button class="trigger" type="button">
+          <h2>Skills</h2>
+        </button>
+
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>Habilidades profissionais:</h3>
+              <ul id="profile.skills.hardSkills"></ul>
+            </section>
+
+            <section class="personal">
+              <h3>Habilidades pessoais:</h3>
+              <ul id="profile.skills.softSkills">
+                <li>Carregando...</li>
+                <li>Carregando...</li>
+                <li>Carregando...</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="acordeon languages">
+        <button class="trigger" type="button">
+          <h2>Idiomas</h2>
+        </button>
+
+        <div class="content">
+          <ul class="languages" id="profile.languages">
+            <li>Carregando...</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon portfolio">
+        <button class="trigger" type="button">
+          <h2>Portfólio</h2>
+        </button>
+
+        <div class="content">
+          <ul class="portfolio" id="profile.portfolio"></ul>
+        </div>
+      </section>
+
+      <section class="acordeon experience">
+        <button class="trigger" type="button">
+          <h2>Formação Acadêmica</h2>
+        </button>
+
+        <div class="content">
+          <ul class="experience" id="profile.academicTraining"></ul>
+        </div>
+      </section>
+
+      <section class="acordeon courses">
+        <button class="trigger" type="button">
+          <h2>Cursos</h2>
+        </button>
+
+        <div class="content">
+          <ul class="courses" id="profile.courses"></ul>
+        </div>
+      </section>
+
+      <section class="acordeon professional-experience">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="professionalExperience">
+                </ul>
+            </div>
+        </section>
+
+      <footer>
+        <p>&copy; 2026 - Pedro Zeferino da Silva</p>
+        <a href="https://www.dio.me/" target="_blank" rel="noopener noreferrer">
+          <img src="assets/img/dio.svg" alt="DIO" />
+        </a>
+      </footer>
+    </main>
+
+    <script src="javascript/acordeon.js"></script>
+    <script src="javascript/api.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
