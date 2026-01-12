@@ -1,13 +1,14 @@
 @font-face {
     font-family: 'Neue Machina';
-    src: url('../assets/fonts/neue-machina-regular.otf') format('opentype');
+    src: url('../fonts/NeueMachina-Regular.woff2') format('woff2'),
+        url('../fonts/NeueMachina-Regular.woff') format('woff');
 }
 
 body {
-    
+
     background-color: #000;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Neue Machina', sans-serif;
 }
 
 .main {
@@ -22,8 +23,16 @@ body {
         max-width: 1024px;
         margin: 1rem auto;
     }
-}
 
-a {
-    color: #fff;
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        transition: 0ms.3s;
+        color: #ff0000;
+
+    }
 }

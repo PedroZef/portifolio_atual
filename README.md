@@ -24,8 +24,7 @@ O objetivo foi construir uma interface web moderna e responsiva para apresentar 
 
 O projeto está organizado da seguinte forma:
 
-```
-
+```/
 ├── assets/
 │   ├── fonts/      # Fontes personalizadas
 │   └── img/        # Imagens e ícones
